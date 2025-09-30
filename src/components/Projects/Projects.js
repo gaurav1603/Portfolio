@@ -2,11 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import netflix from "../../Assets/Projects/netflix.png";
-import SuperStore from "../../Assets/Projects/SuperStore.png";
-import road from "../../Assets/Projects/road.jpeg";
-import { ImPointRight } from "react-icons/im";
-import Card from "react-bootstrap/Card";
+import leaf from "../../Assets/Projects/leaf.png";
+import emotion from "../../Assets/Projects/emotion.png";
+import editor from "../../Assets/Projects/codeEditor.png";
+import chatify from "../../Assets/Projects/chatify.png";
+import suicide from "../../Assets/Projects/suicide.png";
+import bitsOfCode from "../../Assets/Projects/blog.png";
+import studynotion from "../../Assets/Projects/studynotion.png";
+import eye from "../../Assets/Projects/eye.png";
+import facial1 from "../../Assets/Projects/facial1.jpeg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -21,56 +25,47 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={netflix}
+              imgPath={studynotion}
               isBlog={false}
-              title="Data Analysis of Netflix Content"
-              description="This Power BI project is designed to analyze and compare content available across popular OTT platforms: Netflix, Amazon Prime, and Disney+ Hotstar. The dashboard provides interactive visualizations to help uncover trends related to content types, view ratings, release timelines, IMDb scores, and more."
-              ghLink="http://github.com/igabhi04/Netflix-Prime-Hotstar-Dashboard-Power-BI"
+              title="Study-Notion"
+              description="StudyNotion is a comprehensive e-learning platform designed to make education accessible and engaging. It offers a diverse range of courses, interactive learning tools, and expert-led tutorials tailored to meet the needs of students and professionals. With features like progress tracking and community support, StudyNotion fosters a collaborative and personalized learning experience."
+              ghLink="https://github.com/gaurav1603/Study-Notion"
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={SuperStore}
+              imgPath={eye}
               isBlog={false}
-              title="Super Store Annual Sales Report"
-              description="Developed an interactive Power BI dashboard to analyze Superstore sales data across regions and categories.
-                    Built KPIs and DAX measures to track Sales, Profit, and Customer Segments with clear visual insights.
-                    Identified top-performing products and highlighted low-profit areas to guide business strategy.
-                    Enabled data-driven decision making through dynamic filters, maps, and trend analysis."
-              ghLink="http://github.com/igabhi04/Power-Bi-Superstore-Sales"
+              title="Third-Eye"
+              description="Third Eye is an innovative forensic analysis tool designed for enhanced facial recognition and sketch-based identification. It leverages advanced AI algorithms to process and analyze forensic sketches, aiding law enforcement in identifying individuals quickly and accurately. Third Eye streamlines investigations by providing intuitive insights and improving the efficiency of criminal profiling."
+              ghLink="https://github.com/gaurav1603/Third-Eye"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={road}
+              imgPath={editor}
               isBlog={false}
-              title="Road Accident Analysis Dashboard"
-              description="Created an interactive Power BI dashboard to analyze road accident trends across time, location, and vehicle types.
-                  Designed KPIs to track total accidents, casualties, and severity distribution for better safety insights.
-                  Visualized accident hotspots using maps and charts to identify high-risk regions and time periods.
-                  Enabled data-driven policy recommendations by highlighting key causes and patterns in accidents."
-              // ghLink="https://github.com/Abhishek1603/Editor.io"
+              title="Editor.io"
+              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              // ghLink="https://github.com/gaurav1603/Editor.io"
               // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={facial1}
+              isBlog={false}
+              title="Facial Recognition Attendance System"
+              description="The Facial Recognition Attendance System is a cutting-edge solution that automates attendance tracking using facial recognition technology. It captures and verifies facial data in real-time, ensuring accurate and efficient attendance management. This system eliminates the need for manual processes, enhances security, and provides seamless integration with organizational databases for easy reporting and analytics."
+              // ghLink="https://github.com/gaurav1603/Plant_AI"
+              // demoLink="https://plant49-ai.herokuapp.com/"
+            />
+          </Col>
         </Row>
-      </Container>
-      <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Certifications </strong>
-        </h1>
-        <ul className="certification-list">
-          <li className="certification-item">
-            <ImPointRight /> National Programme on Technology Enhanced Learning (NPTEL - Data Analytics With Python)
-          </li>
-          <li className="certification-item">
-            <ImPointRight /> National Programme on Technology Enhanced Learning (NPTEL - Cloud Computing)
-          </li>
-        </ul>
       </Container>
     </Container>
   );

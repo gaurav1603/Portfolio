@@ -7,7 +7,7 @@ function Github() {
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       {/* Github */}
       <GitHubCalendar
-        username="Abhishek1603"
+        username="gaurav1603"
         blockSize={15}
         blockMargin={5}
         color="#c084f5"

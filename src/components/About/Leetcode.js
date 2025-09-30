@@ -4,7 +4,7 @@ const Leetcode = () => {
     return (
         <div className='text-white my-8 w-100'>
             <LeetCodeCalendar
-                username="Abhisheksm_16"
+                username="gauravsm_16"
                 blockSize={14}
                 blockMargin={5}
                 color="#a855f7"

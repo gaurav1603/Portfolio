@@ -8,10 +8,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Abhishek Adhude </span>
+            Hi Everyone, I am <span className="purple">Gaurav Magar </span>
             from <span className="purple"> Maharashtra, India.</span>
             <br />
-            I am pursuing Bachelors of Technology degree from CSMSS Chh.Shahu College of Engineering , Chh.Sambhajinagar.
+            I am pursuing Bachelors of Technology degree from Government College of Engineering Aurangabad, Maharashtra.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -28,7 +28,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Abhishek</footer>
+          <footer className="blockquote-footer">Gaurav</footer>
         </blockquote>
       </Card.Body>
     </Card>

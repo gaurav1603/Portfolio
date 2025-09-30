@@ -6,14 +6,8 @@ import {
   SiSlack,
   SiVercel,
   SiMacos,
-  SiGooglecolab,
-  SiPowerbi,
-  SiJupyter,
-  SiMicrosoftexcel
 } from "react-icons/si";
-import{
-  DiGit
-}from "react-icons/di";
+
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -21,20 +15,11 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col> 
+        <SiPostman />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGooglecolab />
-      </Col> 
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPowerbi />
-      </Col> 
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJupyter />
-      </Col> 
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftexcel />
-      </Col> 
+        <SiVercel />
+      </Col>
     </Row>
   );
 }

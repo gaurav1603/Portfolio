@@ -32,20 +32,15 @@ My personal portfolio <a href="https://portfoliogaurav-psi.vercel.app/" target="
 
 This project was built using these technologies.
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
+- React
+- JavaScript
+- Node
+- Express
+- MongoDB
+- SQL
+- MySQL 
 - VsCode
 - Vercel
-
-## Features
-
-**📖 Multi-Page Layout**
-
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
-
-**📱 Fully Responsive**
 
 ## Getting Started
 

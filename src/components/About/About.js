@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
+import Leetcode from "./Leetcode";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
@@ -43,13 +44,20 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-        {/* <div>
+        <div>
           <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
             Days I <strong className="purple">Code</strong>
           </h1>
           <h3>Github</h3>
           <Github />
-        </div> */}
+        </div>
+        <div>
+          <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+            Days I <strong className="purple">Code</strong>
+          </h1>
+          <h3>LeetCode</h3>
+          <Leetcode />
+        </div>
       </Container>
     </Container>
   );
