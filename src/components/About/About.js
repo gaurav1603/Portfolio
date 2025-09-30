@@ -51,13 +51,13 @@ function About() {
           <h3>Github</h3>
           <Github />
         </div>
-        <div>
+        {/* <div>
           <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
             Days I <strong className="purple">Code</strong>
           </h1>
           <h3>LeetCode</h3>
           <Leetcode />
-        </div>
+        </div> */}
       </Container>
     </Container>
   );
